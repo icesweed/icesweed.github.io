@@ -171,9 +171,10 @@
 
                 <div class="contact_container bd-grid">
                     <form action="https://formsubmit.co/icerock.guitat@gmail.com" class="contact_form" method="POST">
-                        <input type="text" placeholder="Name" class='contact_input' required>
-                        <input type="mail" placeholder="Email" class='contact_input' required>
-                        <textarea name="" id="" cols="0" rows="10" class='contact_input'></textarea>
+                        <input type="hidden" name="_subject" value="New email Yahoo!">
+                        <input type="text" placeholder="Name" name="name" class='contact_input' required>
+                        <input type="mail" placeholder="Email" name="email" class='contact_input' required>
+                        <textarea name="" id="" cols="0" rows="10" name="message" class='contact_input'></textarea>
 
                         <button type="submit" class="contact_button button">Submit</button>
                     </form>
